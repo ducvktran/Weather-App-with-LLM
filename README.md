@@ -1,6 +1,6 @@
 # Weather-App-with-LLM
 
-This repository contains the Jupyter notebook with the Python code to create an LLM app/chatbot that lets users enter a city name to search for a five-day weather forecast. The app first verifies whether the input is a valid city name and then retrieves the weather forecast data from the [API](https://www.visualcrossing.com/weather/weather-data-services). If you want to view the notebook on nbviewer, please click [here](https://nbviewer.org/github/ducvktran/Weather-App-with-LLM/blob/main/Weather_App_with_LLM.ipynb).
+This repository contains the Jupyter notebook with the Python code to create an LLM app/chatbot that lets users enter a city name to search for a five-day weather forecast. The app first verifies whether the input is a valid city name using an [LLM model](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct) and then retrieves the weather forecast data from the [API](https://www.visualcrossing.com/weather/weather-data-services). If you want to view the notebook on nbviewer, please click [here](https://nbviewer.org/github/ducvktran/Weather-App-with-LLM/blob/main/Weather_App_with_LLM.ipynb).
 
 Once you run all the code cells (using GPU and following some specific instructions in the notebook), you should get the chat interface like the picture below.
 
